@@ -30,7 +30,6 @@ buttons.forEach(button => {
     });
 });
 
-// Add gradient animation to buttons
 buttons.forEach(button => {
     button.classList.add('gradient');
 });

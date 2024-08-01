@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7; /* beige background */
+    background-color: #f7f7f7;
 }
 
 .calculator {
     width: 350px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #F4D9D0; /* pastel pink background */
-    border: 1px solid #ffd7d7; /* light pink border */
+    background-color: #F4D9D0;
+    border: 1px solid #ffd7d7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,7 @@ body {
     text-align: right;
     border: none;
     border-radius: 10px;
-    background-color: #fff; /* white display */
+    background-color: #fff;
 }
 
 .buttons {
@@ -37,21 +37,21 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: #ffc5c5; /* light pink buttons */
+    background-color: #ffc5c5;
     color: #333;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #ffa8a8; /* pastel pink hover */
+    background-color: #ffa8a8;
 }
 
 #clear, #backspace {
-    background-color: #ffd0d0; /* light peach buttons */
+    background-color: #ffd0d0;
 }
 
 #equals {
-    background-color: #ff99cc; /* pastel pink equals button */
+    background-color: #ff99cc; 
 }
 
 button:active {
