@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* beige background */
+}
+
+.calculator {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #F4D9D0; /* pastel pink background */
+    border: 1px solid #ffd7d7; /* light pink border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff; /* white display */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc5c5; /* light pink buttons */
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffa8a8; /* pastel pink hover */
+}
+
+#clear, #backspace {
+    background-color: #ffd0d0; /* light peach buttons */
+}
+
+#equals {
+    background-color: #ff99cc; /* pastel pink equals button */
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, #ffc5c5, #ffa8a8);
+    background-size: 100% 200px;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
